@@ -1,3 +1,7 @@
+//g++ all_tests.cpp -Isdl2lib\include -Lsdl2lib\lib -w -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -o compile/test
+
+//g++ all_tests.cpp -ISDL2-mingw32\include -L SDL2-mingw32\lib -w -lmingw32 -lSDL2main -lSDL2 -lSDL2_ttf -o compile/test
+
 #include "Tests/tests.hpp"
 #include "Tests/ball_tests.hpp"
 #include "Tests/player_tests.hpp"
