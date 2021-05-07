@@ -47,7 +47,7 @@ that an algorithm can learn and adapt on its own using the evolutionary process
  * **Factory**: The factory pattern is used to dynamically create many different Balls and Players during the training process. Our *Factory* is called *NetworkHandler*. Its job is to create, kill, and breed AI's together. It is given a mutation rate, generation size, network topology, and selection size. The factory then creates many objects, which it then returns to the client every frame after updating object positions. The client uses the *GameRanderer* object to render all of the factory's objects onto the screen.
  
 # Class Diagram
-![OMT Diagram](https://github.com/cs100/final-project-cvurb001-hlian050-tnguy918/blob/master/AI%20Learns%20to%20Play%20Pong.png)
+![OMT Diagram](Image/Class_Diagram.png)
 * The abstract class *Object* has three derived classes *Text*, *Ball*, and *Player*. These objects are all game objects that have inherited variables and functions from the base class *Object* as well as their own member variables and functions (some are from the SDL Library that we will use for our graphics.)
 
  * The compositor *Controller* declares a common interface for the two derived strategies: *User* and *NeuralNetwork*.
