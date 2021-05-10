@@ -28,7 +28,7 @@ that an algorithm can learn and adapt on its own using the evolutionary process
  * This project mainly focuses on teaching AI to play a simple game, so our input would be the game Pong (we will implement it ourselves), and the output would be the AI being able to play the game with a low percentage of losing.
  
 ## Training
- * Each generation, Neural Network's compete and are evaluated against their peers. The Network's with the highest fitness scores are moved onto the next generation and are breeded with one another. 
+ * Each generation, Neural Network's compete and are evaluated against their peers. The Networks with the highest fitness scores are moved onto the next generation and are breeded with one another. 
 
  ![](Image/Training.gif)
  
